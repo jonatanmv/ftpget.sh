@@ -1,0 +1,50 @@
+.\" Manpage for getftp.
+.\" To view this man page you can execute: "nroff -man getftp.manpage | less" or "man ./getftp.manpage"
+.\" Contact jonatan.mv@gmail.com to correct errors or typos.
+
+.TH man 1 "2012-12-22" "v1.0" "getftp.sh man page"
+
+.SH NAME
+getftp.sh \- Gets remote files via ftp.
+
+.SH SYNOPSIS
+getftp.sh is a shell script for getting remote files using ftp connection to remote server.
+
+.SH DESCRIPTION
+getftp.sh reads the getftp.conf configration file and retrieves the remote files in this config file.
+
+.SH OPTIONS
+You can configure the behaviour via text files. The config files is:
+"getftp.conf" --> General configuration file.
+
+.SH EXAMPLE
+An example of execution (after configuration files are done) is quite simple: "sh getftp.sh".
+This script can be added to the cron in order to execute it periodically.
+
+.SH SEE ALSO
+ftp(1) cron(8)
+
+.SH BUGS
+No known bugs.
+
+.SH AUTHOR
+@2012 by Jonatan Morales <jonatan.mv@gmail.com>
+
+.SH INSTALL
+The recomended platform for running getftp script is Linux.
+
+.SS Linux or Mac
+To install the bakup.sh utility in Linux os Mac:
+.br
+1. Create the folder /opt/getftp/
+.br
+2. Copy the getftp.sh file to /opt/getftp/
+.br
+3. Copy the getftp.conf file to /opt/getftp/
+.br
+4. Edit and personalize the config file
+.br
+5. Copy the man file getftp.man to the manpages directory of your system.
+
+.SS Windows
+For windows users you can install the cygwin software and then follow the previous steps.
