@@ -10,7 +10,7 @@
 
 LOGFILE=ftpget.log
 
-# Settings from external file (see "settings_sample.conf" file for details)
+# Settings from external file (see "ftpget.conf_SAMPLE" file for details)
 if [ -f "./ftpget.conf" ]; then
     CONFIG_FILE="./ftpget.conf"
     source ./ftpget.conf

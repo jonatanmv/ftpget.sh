@@ -28,7 +28,7 @@ ftp(1) cron(8)
 No known bugs.
 
 .SH AUTHOR
-@2012 by Jonatan Morales <jonatan.mv@gmail.com>
+Jonatan Morales <jonatan.mv@gmail.com>
 
 .SH INSTALL
 The recomended platform for running getftp script is Linux.
